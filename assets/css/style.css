@@ -6,8 +6,8 @@
 .main{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/assets/images/WSS1.jpg);
-    background-position: top;
-    background-size: auto;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -32,8 +32,8 @@
     padding-top: 10px;
     margin-top: 5px
 }
-
-.menu{
+/* Menu lines: 36-40 */
+.menu {
     width: 400px;
     float: left;
     height: 70px;
@@ -62,7 +62,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #ff7200;
+    color: #45e80e;
 }
 
 .search{
@@ -76,7 +76,7 @@ ul li a:hover{
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px solid #ff7200;
+    border: 1px solid #45e80e;
     margin-top: 13px;
     color: #fff;
     border-right: none;
@@ -90,8 +90,8 @@ ul li a:hover{
 .btn{
     width: 100px;
     height: 40px;
-    background: #ff7200;
-    border: 2px solid #ff7200;
+    background: #45e80e;
+    border: 2px solid #45e80e;
     margin-top: 13px;
     color: #fff;
     font-size: 15px;
@@ -139,7 +139,7 @@ ul li a:hover{
 .content .cn{
     width: 160px;
     height: 40px;
-    background: #ff7200;
+    background: #45e80e;
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -152,38 +152,38 @@ ul li a:hover{
 
 .content .cn a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     transition: .3s ease;
 }
 
 .cn:hover{
-    background-color: #fff;
+    background-color: rgb(9, 241, 202); /* join us over icon */
 }
 
 .content span{
-    color: #ff7200;
+    color: #a0f814; /* development word */
     font-size: 65px
 }
 
 .form{
-    width: 250px;
+    width: 240px;
     height: 380px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
-    position: absolute;
+    background: linear-gradient(to top, rgba(3, 186, 18, 0.8)50%,rgba(3, 186, 18, 0.8)50%); /*form 2nd half */
+    position: absolute; 
     top: -20px;
-    left: 870px;
+    left: 890px; /* form horizonal adjusment */
     transform: translate(0%,-5%);
-    border-radius: 10px;
-    padding: 25px;
+    border-radius: 50px;
+    padding: 15px;
 }
 
 .form h2{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
-    color: #ff7200;
+    color: #fff;             /* login here words*/
     font-size: 22px;
-    background-color: #fff;
+    background-color: #45e80e; /* login here */
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
@@ -193,11 +193,11 @@ ul li a:hover{
     width: 240px;
     height: 35px;
     background: transparent;
-    border-bottom: 1px solid #ff7200;
+    border-bottom: 1px solid #45e80e; /* lines email password */
     border-top: none;
     border-right: none;
     border-left: none;
-    color: #fff;
+    color: #fff; /* typing email and password */
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
@@ -209,29 +209,29 @@ ul li a:hover{
 }
 
 ::placeholder{
-    color: #fff;
+    color: #a0f814; /* email password type text*/
     font-family: Arial;
 }
 
 .btnn{
     width: 240px;
     height: 40px;
-    background: #ff7200;
+    background: #45e80e; /* login */
     border: none;
     margin-top: 30px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
-    color: #fff;
+    color: rgb(243, 9, 9);
     transition: 0.4s ease;
 }
 .btnn:hover{
-    background: #fff;
-    color: #ff7200;
+    background: #38dce5;
+    color: #e538a3;
 }
 .btnn a{
     text-decoration: none;
-    color: #000;
+    color: #fff; /* login */
     font-weight: bold;
 }
 .form .link{
@@ -242,7 +242,7 @@ ul li a:hover{
 }
 .form .link a{
     text-decoration: none;
-    color: #ff7200;
+    color: #a0f814; /* sign up */
 }
 .liw{
     padding-top: 15px;
@@ -251,28 +251,28 @@ ul li a:hover{
 }
 .icons a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(23, 237, 216);
 }
 .icons ion-icon{
-    color: #fff;
+    color: #fff; /* facebook twitter etc */
     font-size: 30px;
     padding-left: 14px;
     padding-top: 5px;
     transition: 0.3s ease;
 }
 .icons ion-icon:hover{
-    color: #ff7200;
+    color: rgb(23, 237, 216); /* facebook twitter etc over */
 }
 
 /* Sublogo & blinking lines: 267-286 */
 .sublogo {
     color: #65eb11;
-    font-size: 15px;
+    font-size: 12px;
     font-family: Arial;
     padding-left: 20px;
     float: left;
-    padding-top: 10px;
-    margin-top: 5px
+    padding-top: 2px;
+    margin-top: 1px;
 }
 
 .blink_sublogo {
@@ -284,3 +284,4 @@ ul li a:hover{
       opacity: 0;
     }
   }
+
